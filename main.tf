@@ -8,7 +8,7 @@ terraform {
 
 
   backend "s3" {
-    bucket = "2026-03-23-bs"
+    bucket = "amzn-s3-forme"
     key    = "app/terraform.tfstate" # Key könnt ihr selbst bestimmen, sollte nur über die deployments einheitlich sein
     region = "us-east-1"
   }
